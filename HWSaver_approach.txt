@@ -4,7 +4,8 @@ The problem statement was separating hard skills from other types of data.
 Now we were given two datasets raw_skills and example_hard_skills.
 raw_skills had a mixture of both hard skills and other data whereas example_hard_skills consisted of only hard skills.
 
-After doing few EDA and observations, I found out that skills other than hard skills comprised mostly data from a CV/resume. So I decided to gather some CV/resume data and did unigrams and bigrams on this.
+After doing few EDA and observations, I found out that skills other than hard skills comprised mostly data from a CV/resume. 
+So I decided to gather some CV/resume data and did unigrams and bigrams on this.
 
 Basically I converted this into a binary classification problem where one class was the example_hard_skills and the other was CV/resume generated data.
 
